@@ -1,8 +1,8 @@
 my_dict = {'Anton' : 1996, "Nikita" : 1999}
 print(my_dict)
+print(my_dict.get('Anton'))
 my_dict['Anna'] = 2003
-print(my_dict['Anton'])
-print(my_dict['Anna'])
+print(my_dict.get('Anna'))
 my_dict.update({'Maxim' : 1997,
                 'Denis' :1988})
 print(my_dict)
